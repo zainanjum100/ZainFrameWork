@@ -1,0 +1,6 @@
+framework module ZainFramework {
+  umbrella header "ZainFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

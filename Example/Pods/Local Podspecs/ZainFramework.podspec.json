@@ -1,0 +1,22 @@
+{
+  "name": "ZainFramework",
+  "version": "0.1.0",
+  "summary": "A short description of ZainFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zainanjum100/ZainFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zainanjum100": "zainanjum100@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/zainanjum100/ZainFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZainFramework/Classes/**/*"
+}
