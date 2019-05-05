@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		23F23B267202268EFD7500F4F196D970 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4B77110F227F8EAC00C7657F /* VCExts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B77110E227F8EAC00C7657F /* VCExts.swift */; };
+		4B771111227F8EF500C7657F /* TableViewExts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B771110227F8EF500C7657F /* TableViewExts.swift */; };
+		4B771113227F8F2D00C7657F /* ImageExts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B771112227F8F2D00C7657F /* ImageExts.swift */; };
 		4BB3107674425321F82CD01248FF958F /* Pods-ZainFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F69F9E22DF024723DDC85E8DC2B4F9AC /* Pods-ZainFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C6DA9FC2017927052226E85D623EAC9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9DF1A340FEAC66554065701A468E8 /* ReplaceMe.swift */; };
+		6C6DA9FC2017927052226E85D623EAC9 /* CommonExts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9DF1A340FEAC66554065701A468E8 /* CommonExts.swift */; };
 		916523F4139242B1980AF35602E53EEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A42C4D8110C1F5D7CFA7848C4677FDDB /* ZainFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF9A29D3EB19BDF6A00F2A3C56BB617 /* ZainFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D31A47E363AC74630EFD95F760DA18EA /* ZainFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D94D308D71739459C1061A13A21FAC /* ZainFramework-dummy.m */; };
@@ -27,29 +30,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CCB490537741F7DEADCF3371C154050 /* Pods_ZainFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZainFramework_Tests.framework; path = "Pods-ZainFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DF9DF1A340FEAC66554065701A468E8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZainFramework/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		1CCB490537741F7DEADCF3371C154050 /* Pods_ZainFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZainFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF9DF1A340FEAC66554065701A468E8 /* CommonExts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommonExts.swift; path = ZainFramework/Classes/CommonExts.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4195CA0C1A1E7588E509739648BFD3D5 /* Pods-ZainFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZainFramework_Tests-dummy.m"; sourceTree = "<group>"; };
 		42FE7499EA1A97FD001CC9B6AA16047B /* Pods-ZainFramework_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZainFramework_Tests-Info.plist"; sourceTree = "<group>"; };
 		44D94D308D71739459C1061A13A21FAC /* ZainFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZainFramework-dummy.m"; sourceTree = "<group>"; };
 		49F169926D2DD66E0277C49F41B4267A /* Pods-ZainFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZainFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B77110E227F8EAC00C7657F /* VCExts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VCExts.swift; path = ZainFramework/Classes/Extentions/VCExts.swift; sourceTree = "<group>"; };
+		4B771110227F8EF500C7657F /* TableViewExts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewExts.swift; path = ZainFramework/Classes/Extentions/TableViewExts.swift; sourceTree = "<group>"; };
+		4B771112227F8F2D00C7657F /* ImageExts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExts.swift; sourceTree = "<group>"; };
 		4C49C1EEF6D2DF235A3C9E5C245BEFF7 /* ZainFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZainFramework.modulemap; sourceTree = "<group>"; };
 		52BF40BCA08164A5F0924D3353574B81 /* ZainFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZainFramework-prefix.pch"; sourceTree = "<group>"; };
 		6FB1C0DB72AAF6AAB3A6CE72B11A8FB6 /* ZainFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZainFramework.xcconfig; sourceTree = "<group>"; };
-		718C3E2D0E62389F70613C477172B141 /* ZainFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZainFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		718C3E2D0E62389F70613C477172B141 /* ZainFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZainFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7FB5FCD8A2DB6977C36C02B6A26DD86B /* Pods-ZainFramework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZainFramework_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8BF9A29D3EB19BDF6A00F2A3C56BB617 /* ZainFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZainFramework-umbrella.h"; sourceTree = "<group>"; };
 		971C1EAB2C926E46596B9239951D0EC8 /* Pods-ZainFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZainFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		98317B3B1DE75A1D88E24670246A2699 /* Pods-ZainFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZainFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B0CAC0E34F95FA17C9E5E5C38364FC7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0CAC0E34F95FA17C9E5E5C38364FC7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E81C5020D1ABF5C6BE5914975A769BC0 /* Pods-ZainFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZainFramework_Tests.modulemap"; sourceTree = "<group>"; };
 		EAE73BEAEED6A274A6212C788A2083FA /* ZainFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZainFramework-Info.plist"; sourceTree = "<group>"; };
-		EB01F2F930A8C6DD05B0FA4C3F0CDE7F /* ZainFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZainFramework.framework; path = ZainFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB01F2F930A8C6DD05B0FA4C3F0CDE7F /* ZainFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZainFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5435DB633C31362DC87B2DCD4511EE /* Pods-ZainFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZainFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F69F9E22DF024723DDC85E8DC2B4F9AC /* Pods-ZainFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZainFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FD764FAD14CA319AAD0BEDE35152E77B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FD764FAD14CA319AAD0BEDE35152E77B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +81,12 @@
 		07331C3C0351C73637814F48ABC15533 /* ZainFramework */ = {
 			isa = PBXGroup;
 			children = (
-				2DF9DF1A340FEAC66554065701A468E8 /* ReplaceMe.swift */,
+				2DF9DF1A340FEAC66554065701A468E8 /* CommonExts.swift */,
 				6977BB1D360E7899D7A3612031BA8211 /* Pod */,
 				C443D058176962A45863908C681871E5 /* Support Files */,
+				4B77110E227F8EAC00C7657F /* VCExts.swift */,
+				4B771110227F8EF500C7657F /* TableViewExts.swift */,
+				4B771112227F8F2D00C7657F /* ImageExts.swift */,
 			);
 			name = ZainFramework;
 			path = ../..;
@@ -292,8 +301,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C6DA9FC2017927052226E85D623EAC9 /* ReplaceMe.swift in Sources */,
+				6C6DA9FC2017927052226E85D623EAC9 /* CommonExts.swift in Sources */,
+				4B771111227F8EF500C7657F /* TableViewExts.swift in Sources */,
 				D31A47E363AC74630EFD95F760DA18EA /* ZainFramework-dummy.m in Sources */,
+				4B77110F227F8EAC00C7657F /* VCExts.swift in Sources */,
+				4B771113227F8F2D00C7657F /* ImageExts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,8 +471,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
