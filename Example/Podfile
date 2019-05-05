@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ZainFramework_Tests' do
+  pod 'ZainFramework', :path => '../'
+  
+  
+end
