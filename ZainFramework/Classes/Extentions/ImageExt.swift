@@ -1,5 +1,5 @@
 //
-//  ImageExts.swift
+//  ImageExt.swift
 //  ZainFramework
 //
 //  Created by ZainAnjum on 06/05/2019.
