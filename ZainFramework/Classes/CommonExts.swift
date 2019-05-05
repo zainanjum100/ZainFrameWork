@@ -13,7 +13,7 @@ class DesignableButton: UIButton {
 class DesignableLabel: UILabel {
 }
 
-extension UIView {
+public extension UIView {
     
     @IBInspectable
     var cornerRadius: CGFloat {

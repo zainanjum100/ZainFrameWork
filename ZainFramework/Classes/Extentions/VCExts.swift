@@ -6,7 +6,7 @@
 //
 
 import UIKit
-extension UIViewController{
+public extension UIViewController{
     static func instantiate() -> UIViewController{
         let id = String(describing: self)
         let storyboard = UIStoryboard(name: "Main", bundle: nil)

@@ -58,11 +58,11 @@ public extension UITableView {
         self.separatorStyle = .singleLine
     }
 }
-struct Chapter: Decodable {
+public struct Chapter: Decodable {
     let name: String
 }
 //Searcing extention
-extension Array where Element == Chapter{
+public extension Array where Element == Chapter{
     func matching(_ text: String?) -> [Chapter] {
         if let text = text, text.count > 0{
             return self.filter{
