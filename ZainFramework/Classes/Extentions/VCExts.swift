@@ -39,7 +39,7 @@ public extension UIViewController{
             //Create the activity indicator
             
             let activityIndicator = UIActivityIndicatorView(style: style)
-            //Add the tag so we can find the view in order to remove it later
+            
             
             activityIndicator.tag = self.activityIndicatorTag
             //Set the location
