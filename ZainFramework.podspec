@@ -31,7 +31,7 @@ This Repo is going to help Developers in IOS development and it's short and desc
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ZainFramework/Classes/**/*'
-  s.swift_versions = '4.0'
+  s.swift_versions = '5.0'
   # s.resource_bundles = {
   #   'ZainFramework' => ['ZainFramework/Assets/*.png']
   # }

@@ -38,7 +38,7 @@ public extension UIViewController{
             
             //Create the activity indicator
             
-            let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: style)
+            let activityIndicator = UIActivityIndicatorView(style: style)
             //Add the tag so we can find the view in order to remove it later
             
             activityIndicator.tag = self.activityIndicatorTag
@@ -91,7 +91,7 @@ public extension UIViewController{
         alert.view.tintColor = UIColor.black
         let loadingIndicator: UIActivityIndicatorView = UIActivityIndicatorView(frame: CGRect(x: 10, y: 5, width: 50, height: 50)) as UIActivityIndicatorView
         loadingIndicator.hidesWhenStopped = true
-        loadingIndicator.activityIndicatorViewStyle = UIActivityIndicatorView.Style.gray
+        loadingIndicator.style = UIActivityIndicatorView.Style.gray
         loadingIndicator.startAnimating();
         
         alert.view.addSubview(loadingIndicator)
