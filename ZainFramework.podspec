@@ -28,7 +28,7 @@ This Repo is going to help Developers in IOS development and it's short and desc
   s.source           = { :git => 'https://github.com/zainanjum100/ZainFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'ZainFramework/Classes/**/*'
   s.swift_versions = '5.0'
