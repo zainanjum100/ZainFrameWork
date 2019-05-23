@@ -6,9 +6,7 @@
 //
 
 import UIKit
-@available(iOS 10.0, *)
 public extension UITableView {
-    
     func beginRefreshing() {
         // Make sure that a refresh control to be shown was actually set on the view
         // controller and the it is not already animating. Otherwise there's nothing
@@ -16,21 +14,14 @@ public extension UITableView {
         guard let refreshControl = refreshControl, !refreshControl.isRefreshing else {
             return
         }
-        
         // Start the refresh animation
         refreshControl.beginRefreshing()
         //new
-        
         // a pull to refresh manually
         refreshControl.sendActions(for: .valueChanged)
-        if #available(iOS 11.0, *) {
             let top = self.adjustedContentInset.top
             let y = self.refreshControl!.frame.maxY + top
             self.setContentOffset(CGPoint(x: 0, y: -y), animated:true)
-        } else {
-            // Fallback on earlier versions
-        }
-        
         // Apply some offset so that the refresh control can actually be seen
         //        let contentOffset = CGPoint(x: 0, y: -refreshControl.frame.height)
         //        setContentOffset(contentOffset, animated: true)
