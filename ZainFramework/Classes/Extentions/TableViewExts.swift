@@ -6,6 +6,7 @@
 //
 
 import UIKit
+@available(iOS 10.0, *)
 public extension UITableView {
     
     func beginRefreshing() {
@@ -18,8 +19,8 @@ public extension UITableView {
         
         // Start the refresh animation
         refreshControl.beginRefreshing()
+        //new
         
-        // Make the refresh control send action to all targets as if a user executed
         // a pull to refresh manually
         refreshControl.sendActions(for: .valueChanged)
         if #available(iOS 11.0, *) {
