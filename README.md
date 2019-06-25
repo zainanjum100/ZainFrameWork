@@ -24,7 +24,7 @@ pod 'ZainFramework'
 
 ## Usage
 
-#TableView Extention 
+### TableView Extention 
 
 Handling an empty UITableView. Print a friendly message. 
 ```
@@ -44,18 +44,18 @@ TableView Loading Extention
 tableView.beginRefreshing()
 tableView.endRefreshing()
 ```
-#ImageVIew Download image from url and cache image
+### ImageVIew Download image from url and cache image
 ```
 let urlString = "https://www.google.com/"
 ImageView.cacheImage(urlString: urlString)
 
 \\you can change the url and enjoy
 ```
-#SomeStandard Extentions for UIView are added to make things easier in Storyboard
+### SomeStandard Extentions for UIView are added to make things easier in Storyboard
 
 ![alt demo image](https://i.imgur.com/hTaIyrc.png)
 
-#Most Important ViewController Extentions
+#### Most Important ViewController Extentions
 
 ```
 \\Activity Indicator Extention
