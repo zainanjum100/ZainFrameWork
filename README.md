@@ -53,7 +53,7 @@ ImageView.cacheImage(urlString: urlString)
 ```
 #SomeStandard Extentions for UIView are added to make things easier in Storyboard
 
-![alt demo image](https://imgur.com/hTaIyrc)
+![alt demo image](https://i.imgur.com/hTaIyrc.png)
 
 #Most Important ViewController Extentions
 
@@ -73,7 +73,7 @@ self.showLoadingAlert(text: "Replace Text here")
 let viewController = StandardVC.instantiate() \\Class name must be same in 
 pushVC(viewController)
 ```
-![alt text](https://i.imgur.com/hTaIyrc.png)
+![alt text](https://i.imgur.com/3TZOdYG.png)
 ```
 \\old code
 
