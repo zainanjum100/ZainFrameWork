@@ -72,9 +72,9 @@ self.showLoadingAlert(text: "Replace Text here")
 
 let viewController = StandardVC.instantiate() \\Class name must be same in 
 pushVC(viewController)
-
-![alt text](https://imgur.com/hTaIyrc)
-
+```
+![alt text](https://i.imgur.com/hTaIyrc.png)
+```
 \\old code
 
 let viewController = storyboard?.instantiateViewController(withIdentifier: "StandardVC")
